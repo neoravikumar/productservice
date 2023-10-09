@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.naman</groupId>
-    <artifactId>productservice</artifactId>
+    <artifactId>productServiceDemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>productservice</name>
     <description>productservice</description>
@@ -59,11 +59,13 @@
         <scope>runtime</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-mysql -->
+
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-mysql</artifactId>
-            <version>9.22.2</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
         </dependency>
+
 
     </dependencies>
 
